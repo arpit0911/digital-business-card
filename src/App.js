@@ -64,7 +64,7 @@ function App() {
 
       <footer>
         {/* //! target _blank may create problem */}
-        <a href={data.socialUrl.instagramLink} target="_blank">
+        <a href={data.socialUrl.instagramLink}>
           <img src={instagramLogo} alt="instagram logo" />
         </a>
         {/* <img src={twitterLogo} alt="twitter logo" />
