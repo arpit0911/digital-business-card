@@ -1,9 +1,9 @@
 import "./App.css";
 import profilePic from "./images/profile-pic.jpg";
-import twitterLogo from "./images/logo/twitter-logo.svg";
+// import twitterLogo from "./images/logo/twitter-logo.svg";
 import instagramLogo from "./images/logo/instagram-logo.svg";
-import facebookLogo from "./images/logo/facebook-logo.svg";
-import githubLogo from "./images/logo/github-logo.svg";
+// import facebookLogo from "./images/logo/facebook-logo.svg";
+// import githubLogo from "./images/logo/github-logo.svg";
 import linkedInLogo from "./images/logo/linkedin-logo.svg";
 import emailLogo from "./images/logo/email-logo.svg";
 
