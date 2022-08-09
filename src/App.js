@@ -21,7 +21,7 @@ function App() {
     <div className="app">
       <header>
         {/* //TODO: change Image */}
-        <img src={profilePic} alt="Profile Image" />
+        <img src={profilePic} alt="Profile" />
       </header>
       <main>
         <div className="profile-info">
@@ -34,14 +34,14 @@ function App() {
           <button
             onClick={() => (window.location.href = `mailto:${data.email}`)}
           >
-            <img src={emailLogo} /> Email
+            <img src={emailLogo} alt="mail" /> Email
           </button>
           {/* //TODO: add linked profile url */}
           <button
             onClick={() => (window.location.href = data.socialUrl.linkedInLink)}
             className="btn-linkedIn"
           >
-            <img src={linkedInLogo} /> LinkedIn
+            <img src={linkedInLogo} alt="linkedin" /> LinkedIn
           </button>
         </div>
         <div className="about-info">
@@ -63,6 +63,7 @@ function App() {
       </main>
 
       <footer>
+        {/* //! target _blank may create problem */}
         <a href={data.socialUrl.instagramLink} target="_blank">
           <img src={instagramLogo} alt="instagram logo" />
         </a>
